@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anurag Mohanty👋</title>
+  <link rel="icon" type="image/png" href="../images/favicon.png" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&amp;display=swap">
+  <link rel="stylesheet" href="../css/plugins.css" />
+  <link rel="stylesheet" href="../css/style.css">
+
+  <style>
+    /* ======= Fullpage screenshot style ======= */
+
+    .fullpagesc {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #18191d;
+    }
+
+    .fullpagesc .desktop-img {
+      width: 600px;
+      height: 400px;
+      background: url('../images/portfolio/desktopmock.webp');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      position: relative;
+    }
+
+    .fullpagesc .desktop-img .scroll-img {
+      position: absolute;
+      top: 17px;
+      left: 17px;
+      background: url('../images/portfolio/8sc.webp');
+      width: 564px;
+      height: 300px;
+      background-size: 100%;
+      border-radius: 2px;
+      background-position: top;
+      transition: all 15s ease-in-out;
+    }
+
+    .fullpagesc .desktop-img .scroll-img:hover {
+      background-position: bottom;
+    }
+
+    @media (max-width:480px) {
+      .fullpagesc {
+        display: none !important;
+      }
+    }
+
+    @media (max-width:768px) {
+      .fullpagesc {
+        display: none !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div class="preloader-bg"></div>
+  <div id="preloader">
+    <div id="preloader-status">
+      <div class="preloader-position loader"> <span></span> </div>
+    </div>
+  </div>
+  <!-- Cursor -->
+  <div class="cursor js-cursor"></div>
+  <!-- Menu -->
+  <nav class="anurag-menu" id="anurag-navbar-spy">
+    <div class="anurag-menu-inner" id="anurag-navbar">
+      <ul class="list-unstyled">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">Resume</a></li>
+        <li><a href="../services.html">Services</a></li>
+        <li class="active"><a href="../portfolio.html">Portfolio</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Header -->
+  <header class="anurag-header">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Logo -->
+        <div class="col-8 col-md-8">
+          <div class="logo-wrap">
+            <!-- <a href="../index.html" class="logo"> <img src="../images/logo.png" alt="logo"> </a> -->
+          </div>
+        </div>
+        <!-- Menu Burger -->
+        <div class="col-4 col-md-4 text-right anurag-menu-burger-wrap"> <a href="#"
+            class="anurag-nav-toggle anurag-js-nav-toggle"><i></i></a> </div>
+      </div>
+    </div>
+  </header>
+  <!-- Portfolio Page  -->
+  <section class="section-padding portfolio-page">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <!-- ../images -->
+          <div class="row">
+            <div class="col-md-12 gallery-item">
+              <div class="owl-carousel owl-theme text-center">
+                <div class="item">
+                  <div class="gallery-item-inner">
+                    <a href="../images/portfolio/8.webp" title="" class="img-zoom">
+                      <div class="gallery-box">
+                        <div class="gallery-img"> <img src="../images/portfolio/8.webp"
+                            class="img-fluid mx-auto d-block" alt=""> </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="gallery-item-inner">
+                    <a href="../images/portfolio/8/Laptop.png" title="" class="img-zoom">
+                      <div class="gallery-box">
+                        <div class="gallery-img"> <img src="../images/portfolio/8/Laptop.png"
+                            class="img-fluid mx-auto d-block" alt=""> </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="gallery-item-inner">
+                    <a href="../images/portfolio/8/Mobile.png" title="" class="img-zoom">
+                      <div class="gallery-box">
+                        <div class="gallery-img"> <img src="../images/portfolio/8/Mobile.png"
+                            class="img-fluid mx-auto d-block" alt=""> </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="gallery-item-inner">
+                    <a href="../images/portfolio/8/Desktop.png" title="" class="img-zoom">
+                      <div class="gallery-box">
+                        <div class="gallery-img"> <img src="../images/portfolio/8/Desktop.png"
+                            class="img-fluid mx-auto d-block" alt=""> </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 offset-md-1">
+          <h6 class="wow" data-splitting>Website Development</h6>
+          <h1 class="wow" data-splitting>Kibbuzt Biotech Pvt. Ltd.</h1>
+          <p class="mt-45 wow fadeInUp" data-wow-delay=".1s">Kibbutz Biotech LLP is one of the fastest-growing start-ups
+            in the Agri-Tech sector and one of the very few companies providing end-to-end solutions and services to the
+            farming community in India.</p>
+          <p class="mt-45 wow fadeInUp" data-wow-delay=".2s"><span>Date :</span> 15<sup>th</sup> June 2022</p>
+          <p class="wow fadeInUp" data-wow-delay=".3s"><span>Client :</span>Kibbuzt Biotech Pvt. Ltd.</p>
+          <p class="wow fadeInUp" data-wow-delay=".3s"><span>Firm Name :</span> EGNIOL SERVICE PVT. LTD.</p>
+          <p class="wow fadeInUp" data-wow-delay=".3s"><span>Category :</span>Wordpress, Illustrator</p>
+          <div class="btn-wrap wow fadeInUp text-left mt-45" data-wow-delay=".9s">
+            <div class="btn-link"> <a href="http://kibbutz.in/" target="_blank">Live website <i
+                  class="ti-arrow-top-right"></i> </a> <span class="btn-block color1 animation-bounce"></span> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- full page screenshot section  -->
+  <div class="fullpagesc">
+    <div class="desktop-img">
+      <div class="scroll-img"></div>
+    </div>
+  </div>
+
+
+  <!-- Next & Prev -->
+  <section class="nex-prv">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 rest">
+          <div class="prv">
+            <div class="img bg-img background7">
+              <div class="text-left ontop">
+                <h5>JB IPL</h5> <span class="sub-title mb-0 mt-10"><a href="../portfolios/portfolio7.html">Prev
+                    Project</a></span>
+              </div>
+              <div class="overly"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 text-center rest">
+          <a href="../portfolio.html" class="all-works d-flex align-items-center"> <span
+              class="icon full-width ti-layout-grid3"></span> </a>
+        </div>
+        <div class="col-md-5 rest">
+          <div class="nxt">
+            <div class="img bg-img background11">
+              <div class="text-right ontop">
+                <h5>OriginKonnect Pvt. Ltd.</h5> <span class="sub-title mb-0 mt-10"><a
+                    href="../portfolios/portfolio11.html">Next
+                    Project</a></span>
+              </div>
+              <div class="overly"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Testiominals -->
+  <section class="testimonials">
+    <div class="background bg-img bg-fixed section-padding pb-0">
+      <div class="container">
+        <div class="row">
+          <!-- Work together -->
+          <div class="col-md-6 mb-30">
+            <h4 class="wow" data-splitting>Need help with professional support? Let's work together!</h4>
+            <div class="btn-wrap mt-30 text-left wow fadeInUp" data-wow-delay=".6s">
+              <div class="btn-link"> <a href="#" class="white">anuragrmohanty@gmail.com</a> <span
+                  class="btn-block color3 animation-bounce"></span> </div>
+            </div>
+          </div>
+          <!-- Testiominals -->
+          <div class="col-md-5 offset-md-1">
+            <div class="testimonials-box">
+              <h5>What Are Clients Saying?</h5>
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <p>I’m having excellent experience with EGNIOL Services. I must say Egniol staff is
+                    highly professional & cooperative, especially <mark>Mr. Anurag Mohanty</mark> he
+                    is very
+                    proactive communicator & he made it very easy for me to make my website live. I
+                    really thank all team of Egniol.
+                    Nix Mould Craft Pvt Ltd.</p> <span class="quote"><img src="../images/quot.png" alt=""></span>
+                  <div class="info">
+                    <div class="author-img"> <img src="../images/team/user.png" alt=""> </div>
+                    <div class="cont">
+                      <h6>RANJAN SEN</h6> <span>Project Owner</span>
+                    </div>
+                    <div class="view-google">
+                      <a href="https://g.co/kgs/Ugf4Kh">View Google Review</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <p>Very good and fast work team Egniol, good communication, very fast website
+                    developing, quality work, affordable rates, speed reply. I am so happy with team
+                    Egniol especially Diwakar Kumar ,<mark>Mr. Anurag Mohanty</mark>, Hemakshivala,
+                    Avadh, Nishant
+                    joshi.</p> <span class="quote"><img src="../images/quot.png" alt=""></span>
+                  <div class="info">
+                    <div class="author-img"> <img src="../images/team/2.jpg" alt=""> </div>
+                    <div class="cont">
+                      <h6>LEAF BAZAR ENTERPRIZE</h6> <span>Project Owner</span>
+                    </div>
+                    <div class="view-google">
+                      <a href="https://g.co/kgs/rDXgFW">View Google Review</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <p>Thanks Egniol team for developing my company's website. I m happy with the work
+                    delivered by the digital team. Special thanks to <mark>Mr. Anurag mohanty</mark>
+                    who took
+                    great efforts to make it look attractive, Vivek Shah, Avadh Hirpara and Ravi
+                    Patel, thanks for mutual support in the process.
+                    Happy with the service.</p> <span class="quote"><img src="../images/quot.png" alt=""></span>
+                  <div class="info">
+                    <div class="author-img"> <img src="../images/team/user.png" alt=""> </div>
+                    <div class="cont">
+                      <h6>CLASSIC MOONNETTING</h6> <span>Project Owner</span>
+                    </div>
+                    <div class="view-google">
+                      <a href="https://g.co/kgs/C5YCjU">View Google Review</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <span class="quote"><img src="../images/quot.png" alt=""></span>
+                  <p>My warm thanks to Egniol Team to make my dream work live on portal. My website
+                    sajjancreationss.in is all set to meet my audience. Special thanks to <mark>Mr.
+                      Anurag
+                      Mohanty</mark> to develop my site, Mr. Vivek Shah for smooth co-ordination
+                    and
+                    end-to-end support ,to rectify my queries, understanding my requirements. To Mr.
+                    Avadh Hirpara for making Graphics and Mr. Ravi Patel to make my website live on
+                    portal. Good work!</p>
+                  <div class="info">
+                    <div class="author-img"> <img src="../images/team/4.png" alt=""> </div>
+                    <div class="cont">
+                      <h6>HARSH JAIN</h6> <span>Project Owner</span>
+                    </div>
+                    <div class="view-google">
+                      <a href="https://g.co/kgs/TMGqAs">View Google Review</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Clients -->
+  <section id="clients" class="clients">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <div class="owl-carousel owl-theme">
+            <div class="clients-logo">
+              <a href="#0"><img class="imgtech" src="../images/tech/1.png" alt=""></a>
+            </div>
+            <div class="clients-logo">
+              <a href="#0"><img class="imgtech" src="../images/tech/2.png" alt=""></a>
+            </div>
+            <div class="clients-logo">
+              <a href="#0"><img class="imgtech" src="../images/tech/3.png" alt=""></a>
+            </div>
+            <div class="clients-logo">
+              <a href="#0"><img class="imgtech" src="../images/tech/4.png" alt=""></a>
+            </div>
+            <div class="clients-logo">
+              <a href="#0"><img class="imgtech" src="../images/tech/5.png" alt=""></a>
+            </div>
+            <div class="clients-logo">
+              <a href="#0"><img class="imgtech" src="../images/tech/6.png" alt=""></a>
+            </div>
+            <div class="clients-logo">
+              <a href="#0"><img class="imgtech" src="../images/tech/7.png" alt=""></a>
+            </div>
+            <div class="clients-logo">
+              <a href="#0"><img class="imgtech" src="../images/tech/8.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="anurag-footer-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Get in touch</h5>
+          <p>anuragrmohanty@gmail.com</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Location</h5>
+          <p>Ahmedabad - Gujarat</p>
+        </div>
+        <div class="col-md-4">
+          <ul class="anurag-footer-social-link">
+            <li><a href="https://www.facebook.com/anurag.mohanty.7355"><i class="ti-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/a.r__1802_/"><i class="ti-instagram"></i></a></li>
+            <li><a href="https://github.com/ar-mohanty"><i class="ti-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/anurag-mohanty-216793197/"><i class="ti-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- jQuery -->
+  <script src="../js/plugins/jquery-3.6.0.min.js"></script>
+  <script src="../js/plugins/bootstrap.min.js"></script>
+  <script src="../js/plugins/owl.carousel.min.js"></script>
+  <script src="../js/plugins/jquery.magnific-popup.min.js"></script>
+  <script src="../js/plugins/YouTubePopUp.js"></script>
+  <script src="../js/plugins/jquery.easing.1.3.js"></script>
+  <script src="../js/plugins/smooth-scroll.min.js"></script>
+  <script src="../js/plugins/wow.js"></script>
+  <script src="../js/custom.js"></script>
+</body>
+
+
+</html>
