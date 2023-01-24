@@ -42,6 +42,7 @@ body {
     -moz-font-smoothing: antialiased;
     font-smoothing: antialiased;
     overflow-x: hidden;
+	overflow-x:hidden;
 }
 body {
     font-family: 'Syne', sans-serif;
