@@ -1545,13 +1545,13 @@ input[type="checkbox"] {
         color: #18191d;
     }
     .hero-container>img {
-        scale: 1.8;
+        scale: 2;
     }
     #loop{
         top: 30%;
     }
     #loop>.loop-text{
-        font-size: 100px !important;
+        font-size: 80px !important;
     }
     .badge{
         position: absolute;
